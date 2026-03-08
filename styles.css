@@ -15,7 +15,7 @@ body{
     background-color: rgb(2, 23, 44);
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 100vh;
     flex-direction: column;
 }
@@ -38,4 +38,14 @@ button{
 }
 a:visited, a:link{
     color: yellow;
+}
+
+.desc{
+    max-width: 800px;
+    background-color: rgba(255,255,255, 0.1);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin: 40px
+
 }
