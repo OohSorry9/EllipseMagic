@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+canvas{
+    background-color: black;
+    border: 1px solid white;
+}
+
+body{
+    background-color: rgb(2, 23, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+    background: none;
+    color: lime;
+    border: 2px solid lime;
+    border-radius: 10px;
+    outline: none;
+}
+
+.link{
+    padding: 5px;
+    color: white;
+}
+a:visited, a:link{
+    color: yellow;
+}
